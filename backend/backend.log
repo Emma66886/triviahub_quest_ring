@@ -1,0 +1,10 @@
+
+> backend@1.0.0 dev
+> ts-node src/index.ts
+
+[dotenv@17.2.3] injecting env (5) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 📡 add observability to secrets: https://dotenvx.com/ops
+✅ MongoDB connected successfully
+🚀 Quest Ring Backend running on port 3001
+📡 Health check: http://localhost:3001/health
