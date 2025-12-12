@@ -1,6 +1,6 @@
 FROM node:20-alpine
 WORKDIR /app
-RUN apk add --no-cache python3 make g++ linux-headers
+# RUN apk add --no-cache python3 make g++ linux-headers
 COPY frontend/package.json frontend/package-lock.json ./
 
 RUN npm install 
