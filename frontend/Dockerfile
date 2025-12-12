@@ -1,12 +1,13 @@
 FROM node:20-alpine
 WORKDIR /app
 
-RUN apt-get update && apt-get install -y \
-    build-essential \
+RUN apk add --no-cache \
     python3 \
     make \
     g++ \
-    libudev-dev
+    linux-headers \
+    eudev-dev
+
 
 
 COPY frontend/package*.json ./
